@@ -1,4 +1,4 @@
-Manual procedures of insertion sort:
+Manual steps of insertion sort:
 
 Original array: {3, 9, 10, 13, 5, 15, 11, 16, 14, 8 }
 1. Comparing 9 and 3; no swap: {3, 9, 10, 13, 5, 15, 11, 16, 14, 8}
@@ -20,4 +20,6 @@ Original Array : {3, 9, 10, 13, 5, 15, 11, 16, 14, 8 }
 3. Third pass : {3, 5, 9, 10, 11, 13, 8, 14, 15, 16}
 4. Fourth Pass: {3, 5, 9, 10, 11, 8, 13, 14, 15, 16}
 5. Fifth pass : {3, 5, 9, 10, 8, 11, 13, 14, 15, 16}
-6. Sixth pass : {3, 5, 9, 8, 10, 11, 13, 14, 15, 16} 7. Seventh pass: {3, 5, 8, 9, 10, 11, 13, 14, 15, 16} Final Sorted array : {3, 5, 8, 9, 10, 11, 13, 14, 15, 16}
+6. Sixth pass : {3, 5, 9, 8, 10, 11, 13, 14, 15, 16} 
+7. Seventh pass: {3, 5, 8, 9, 10, 11, 13, 14, 15, 16}
+Final Sorted array : {3, 5, 8, 9, 10, 11, 13, 14, 15, 16}

@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// Note: Yes, O will win at the 7th step however much X may try. 
+// This structure developed on the board will give more than one winning possibility for O, 
+// and at the same time, X can't block them.
+
 void displayBoard(int board[3][3]) {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
