@@ -1,0 +1,23 @@
+Manual procedures of insertion sort:
+
+Original array: {3, 9, 10, 13, 5, 15, 11, 16, 14, 8 }
+1. Comparing 9 and 3; no swap: {3, 9, 10, 13, 5, 15, 11, 16, 14, 8}
+2. 10 is compared with 9 and 3, no swap: {3, 9, 10, 13, 5, 15, 11, 16, 14, 8}
+3. Comparing 13 to 10, to 9, to 3, no swap {3, 9, 10, 13, 5, 15, 11, 16, 14, 8}
+4. Compare 5 with 13, 10, 9, 3; insert 5: {3, 5, 9, 10, 13, 15, 11, 16, 14, 8}
+5. Comparing 15 with 13, 10, 9, 3, no swap: {3, 5, 9, 10, 13, 15, 11, 16, 14, 8}
+6. Compare 11 to 15, 13, 10, 9, 3; insert 11: {3, 5, 9, 10, 11, 13, 15, 16, 14, 8}
+7. Comparing 16 to 15, 13, 10, 9, 3, no swap: {3, 5, 9, 10, 11, 13, 15, 16, 14, 8}
+8. Compare 14 with 16, 15, 13, 10, 9, 3; insert 14: {3, 5, 9, 10, 11, 13, 14, 15, 16, 8}
+9. Compare 8 with 16, 15, 14, 13, 11, 10, 9, 3 Insert 8: {3, 5, 8, 9, 10, 11, 13, 14, 15, 16}
+Final sorted array: {3, 5, 8, 9, 10, 11, 13, 14, 15, 16}
+
+Manual Steps for Bubble Sort:
+
+Original Array : {3, 9, 10, 13, 5, 15, 11, 16, 14, 8 }
+1. First pass: {3, 9, 10, 5, 13, 11, 15, 14, 8, 16}
+2. Second pass: {3, 9, 5, 10, 11, 13, 14, 8, 15, 16}
+3. Third pass : {3, 5, 9, 10, 11, 13, 8, 14, 15, 16}
+4. Fourth Pass: {3, 5, 9, 10, 11, 8, 13, 14, 15, 16}
+5. Fifth pass : {3, 5, 9, 10, 8, 11, 13, 14, 15, 16}
+6. Sixth pass : {3, 5, 9, 8, 10, 11, 13, 14, 15, 16} 7. Seventh pass: {3, 5, 8, 9, 10, 11, 13, 14, 15, 16} Final Sorted array : {3, 5, 8, 9, 10, 11, 13, 14, 15, 16}
